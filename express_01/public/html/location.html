@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get your coordinates.</p>
+
+<button id="push">Submit your location</button>
+
+<p id="demo"></p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+
+
+function showPosition(position) {
+	var x = document.getElementById("demo");
+    
+    var name = navigator.userAgent;
+    var lat = position.coords.latitude;
+    var lon = position.coords.longitude;
+    var url = "/location/push?id="+name+"&name="+name+"&lat="+lat+"&lon="+lon;
+    console.log(url);
+
+    $.get(url, function(data, status){
+    	locs = JSON.stringify(data)
+	    x.innerHTML = "Latitude: " + position.coords.latitude + 
+	    "<br>Longitude: " + position.coords.longitude
+	    + "<br>" + locs;
+    });
+
+}
+
+$(document).ready(function(){
+    $("#push").click(function(){
+        getLocation();
+    });
+});
+
+</script>
+
+
+</body>
+</html>
