@@ -60,3 +60,39 @@ html, body {
 .hienlen{
     opacity: 1;
 }
+.menubenphai {
+    position: absolute;
+    top: 33px;
+    right: 0px;
+    z-index: 2;
+    width: 165px;
+    height: auto;
+    line-height: 3;
+    color: white;
+    text-align: center;
+}
+.truck {
+    color: #a1a18c;
+    width: 100px;
+    height: 40px;
+    background: #0b0b0980;
+    margin-left: 40px;
+    margin-top: 10px;
+    transition: 0.7s;
+    }
+    .truck:hover {
+    color:#1e1e0b;
+    background: #c9c91f;
+    }
+.btn.btn-success.signin {
+    width: 100px;
+    height: 40px;
+    margin-top: -15px;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn.btn-success.signin:hover{
+    color: gray;
+}
