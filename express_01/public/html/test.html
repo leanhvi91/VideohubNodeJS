@@ -5,8 +5,6 @@
 	<body>
 		<script type="text/javascript">
 
-			var subtitle = null;
-
 			const serverAddress = "http://35.198.217.132:8080";
 
 			function urlget(id){
@@ -15,19 +13,16 @@
 			}
 
 			function parseContent(container, data){
-				console.log(data);
-				var title = data.title;
-				var content = data.content;
-				html = "<table><tr><th>"+title+"</th></tr><tr><td>"+content+"</td></tr></table>";
-				container.html(html);
+				var content = data;
+				container.html(content);
 			}
 
 			function loadSubtitle(id, container){
 				var requestUrl = urlget(id);
 
 				$.get(requestUrl, function(data, status){
-					parseContent(container, data[0]);
-			     	subtitle = data[0]
+					parseContent(container, data);
+			     	console.log("LOAD SUBTITLE SUCCESS")
 			    });
 			}
 
@@ -50,7 +45,7 @@
 
 		<div id="content">
 			
-		</div>
+		</div>>
 
 	</body>
 </html>
