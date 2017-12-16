@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+
+			var subtitle = null;
+
+			const serverAddress = "http://35.198.217.132:8080";
+
+			function urlget(id){
+				var requestUrl = serverAddress + "/subtitles/get/" + id;
+				return requestUrl; 
+			}
+
+			function parseContent(container, data){
+				console.log(data);
+				var title = data.title;
+				var content = data.content;
+				html = "<table><tr><th>"+title+"</th></tr><tr><td>"+content+"</td></tr></table>";
+				container.html(html);
+			}
+
+			function loadSubtitle(id, container){
+				var requestUrl = urlget(id);
+
+				$.get(requestUrl, function(data, status){
+					parseContent(container, data[0]);
+			     	subtitle = data[0]
+			    });
+			}
+
+		</script>
+		<script type="text/javascript">
+			
+
+
+			$(document).ready(function(){
+
+
+				var container = $("#content")
+
+				loadSubtitle(7, container);
+
+
+			});
+
+		</script>
+
+		<div id="content">
+			
+		</div>
+
+	</body>
+</html>
