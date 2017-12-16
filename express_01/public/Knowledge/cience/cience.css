@@ -1,0 +1,194 @@
+*{margin: 0; padding: 0;} 
+html,body{
+	width: 100%;
+	height: 100%;
+    position: relative;
+}
+.video{
+	width: 100%;
+	height: 400px;
+	background: black;
+    padding: 0 0;
+}
+.videowatchnext video._1{
+	width: 100%;
+	padding-right: 15px;
+	padding-top: 15px;
+
+}
+.ditail p{
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.row2 a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+.watchnext{
+
+}
+.yourlist{}
+nav.navbar.navbar-light.bg-faded.bartong {
+    background: #000000d9;
+    border-radius: 0%;
+    color: white;
+}
+nav.navbar.navbar-light.bg-faded.bartong a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'segoe ui light';
+}
+.col-sm-2.videowatchnext {
+    background: #dec9c921;
+}
+.col-sm-2.ditail {
+    background:#dec9c921;
+}
+.col-sm-8.videoshow {
+    width: 100%;
+    background: black;
+    height: 400px;
+}
+.videobottom {
+    display: flex;
+    border-bottom: 2px solid red;
+}
+.videobottom a{
+    padding-left: 40px;
+    color: brown;
+}
+.col-sm-2.logobottom p {
+    color: red;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'segoe ui light';
+}
+.row.row3 {
+    border-top: 2px solid red;
+    padding-top: 20px;
+    position: relative;
+}
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top.barlon {
+    background: white;
+    width: 100%;
+    height: 169px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.hienlen{
+    opacity: 1!important;
+}
+.col-sm-8.videoshow {
+    width: 100%;
+    background: black;
+    height: 400px;
+    padding-right: 0px!important;
+}
+
+video.videosmall {
+    width: 300px;
+    height: 150px;
+}
+img.img-fluit {
+    width: 100%;
+    height: 200px!important;
+}
+.col-sm-4.link2 {
+    background: #fbf8f8;
+    /* margin-top: -20px; */
+    padding-right: 29px;
+    padding-left: 0px;
+}
+.test iframe{
+    width: 100%;
+    height: 180px;
+    /*border: 1px solid black;*/
+}
+iframe{
+    width: 220px;
+    height: 180px;
+}
+.row2 h3{
+    font-family: 'segoe ui light';
+    font-weight: bold;
+    padding-left: 146px;
+    color: red;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.videoshow iframe{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+#barlon iframe {
+    width: 250px;
+    height: 143px;
+}
+#animal_planet_id img{
+    width: 220px;
+    height: 180px;
+    border: 1px solid indianred;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#animal_planet_id img:hover{
+    width: 225px;
+    height: 185px;
+    border: 0;
+    transition: 0.4s;
+}
+#science_channel_id img{
+    width: 220px;
+    height: 180px;
+    border: 1px solid indianred;
+    cursor: pointer;
+}
+#science_channel_id img:hover{
+    width: 225px;
+    height: 185px;
+    border: 0;
+    transition: 0.4s;
+}
+#velocity_id img{
+    width: 220px;
+    height: 180px;
+    border: 1px solid indianred;
+    cursor: pointer;
+}
+#velocity_id img:hover{
+    width: 225px;
+    height: 185px;
+    border: 0;
+    transition: 0.4s;
+}
+#stories_id img{
+    width: 220px;
+    height: 180px;
+    border: 1px solid indianred;
+    cursor: pointer;
+}
+#stories_id img:hover{
+    width: 225px;
+    height: 185px;
+    border: 0;
+    transition: 0.4s;
+}
+#seeker_id img{
+    width: 220px;
+    height: 180px;
+    border: 1px solid indianred;
+    cursor: pointer;
+}
+#seeker_id img:hover{
+    width: 225px;
+    height: 185px;
+    border: 0;
+    transition: 0.4s;
+}

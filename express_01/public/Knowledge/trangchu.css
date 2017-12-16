@@ -1,0 +1,257 @@
+
+
+*{margin: 0; padding: 0;} 
+html, body {
+	width: 100%;
+	height: 100%;
+	background-image: url(images/3.jpg);
+	background-size: cover;
+	background-color: black;
+}
+.row{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menulon {
+    height: 45px;
+    width: 1000px;
+    background: #0b0b14;
+    text-align: center;
+    line-height: 2;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: 0.6s;
+    position: absolute;
+    bottom: 160px;
+    border-radius:23%;
+}
+.menulon a {
+    padding-left: 62px;
+    padding-right: 63px;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+font-weight: bold;
+color: white;
+font-size: x-large;
+}
+.khoahoc{
+font-weight: bold;
+color: white;
+}
+.lichsu{
+font-weight: bold;
+color: white;
+}
+
+.vutru{
+font-weight: bold;
+color: white;
+}
+
+.live{
+font-weight: bold;
+color: white;
+}
+
+.brain{
+font-weight: bold;
+color: white;
+}
+
+.bathanh {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    color: #582222ad;
+    transition: 0.7s
+    }
+.bathanh:hover {
+    color: white;
+    }
+ .bienmat{
+ 	opacity: 0;
+
+ }
+ .hienlen{
+ 	opacity: 1;
+ }
+ .videohienthi {
+    justify-content: center;
+    align-items: center;
+    width: 1020px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    transition: 0.7s;
+}
+.videohienthi i{
+    color: red;
+    opacity: 0;
+}
+.videohienthi i.i1{
+    position: absolute;
+    top: 40%;
+    left: 92px;
+    z-index: 100;
+    transition: 0.4s;
+}
+
+
+
+.videohienthi i.i2{
+    position: absolute;
+    top: 40%;
+    left: 287px;
+    z-index: 100;
+    transition: 0.4s;
+}
+.videohienthi i.i3{
+    position: absolute;
+    top: 40%;
+    left: 494px;
+    z-index: 100;
+    transition: 0.4s;
+}
+.videohienthi i.i4{
+    position: absolute;
+    top: 40%;
+    left: 688px;
+    z-index: 100;
+    transition: 0.4s;
+}
+.videohienthi i.i5{
+    position: absolute;
+    top: 40%;
+    left: 876px;
+    z-index: 100;
+    transition: 0.4s;
+}
+.videohienthi i.i1:hover{
+    opacity: 1;
+    color: gray;
+    }
+    .videohienthi i.i2:hover{
+    opacity: 1;
+    color: gray;
+    }
+    .videohienthi i.i3:hover{
+    opacity: 1;
+    color: gray;
+    }
+    .videohienthi i.i4:hover{
+    opacity: 1;
+    color: gray;
+    }
+    .videohienthi i.i5:hover{
+    opacity: 1;
+    color: gray;
+    }
+.videohienthi img{
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.videohienthi a{
+    justify-content: center;
+    text-transform: unset;
+}
+._anh{
+	width: 200px;
+	height: 200px;
+    border-radius: 20%;
+    transition: 0.4s;
+ }
+ .anhphongto{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    transition: 0.4s;
+    cursor: pointer;
+ }
+ .divden{
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+     width: 100%;
+     height: 100%;
+     background: #ffffff82;
+}
+.contact {
+    position: absolute;
+    top: 21px;
+    left: 107px;
+}
+.contact a {
+    padding-left: 20px;
+    font-size: x-large;
+    color: #582222ad!important;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.contact a:hover {
+    color: white!important;
+    cursor: pointer;
+}
+
+
+}
+.menu{
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+    }
+    .khoahoc{
+    font-weight: bold;
+    color: white;
+    }
+.lichsu{
+font-weight: bold;
+color: white;
+}
+
+.vutru{
+font-weight: bold;
+color: white;
+}
+
+.live{
+font-weight: bold;
+color: white;
+}
+
+.brain{
+font-weight: bold;
+color: white;
+}
+
+.bathanh {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    color: #582222ad;
+    transition: 0.7s
+    }
+.bathanh:hover {
+    color: white;
+    }
+ .bienmat{
+ 	opacity: 0;
+
+ }
+ .hienlen{
+ 	opacity: 1;
+ 	/*transform: translateX(5px);*/
+ }
+ 

@@ -132,8 +132,8 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top.barmauden {
 }
 
 .tongbar{
-    opacity: 0;
-    background: transparent;    
+    opacity: 1;
+    background: yellow;    
      transition: 0.7s;
 }
 .hienlen{
